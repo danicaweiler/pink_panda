@@ -14,5 +14,5 @@ struct Activity: Codable {
     var deposit_amount: Double?
     var withdrawal_amount: Double?
     var balance: Double
-    var transaction_uid: Int //Int for simplicity sake, should be UUID
+    var transaction_uid: Int 
 }
